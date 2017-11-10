@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.upc.eseiaat.pma.guillemcomas.shoppinglist3.ListActivity">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/editbox"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:id="@+id/editbox"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/listPreferredItemHeight"
+        android:background="#15000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+
+        <EditText
+            android:id="@+id/edit_iten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/add_btn"
+            android:ems="10"
+            android:inputType="text"
+            android:text=""
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/add_btn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="+"
+            android:textSize="30dp" />
+    </RelativeLayout>
+</RelativeLayout>

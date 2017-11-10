@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm">Confirmació</string>
+    <string name="remove">Esborra</string>
+    <string name="removemsg">"Estàs segur de que vols esborrar "</string>
+    <string name="clear_chk">Esborrar elements marcats</string>
+    <string name="clear_all">Netejar tot</string>
+    <string name="cannot_write">No s\'ha pogut escriure la llista</string>
+    <string name="cannot_read">No s\'ha pogut legir la llista</string>
+    <string name="confirm_clearAll">Estas segur de que vols esborrar-ho tot?</string>
+</resources>

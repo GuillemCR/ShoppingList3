@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm">Confirmación</string>
+    <string name="remove">Elimina</string>
+    <string name="removemsg">"Estás seguro de que quieres elimina "</string>
+    <string name="clear_chk">Eliminar elementos seleccionados</string>
+    <string name="clear_all">Limpiar todo</string>
+    <string name="cannot_write">No se ha podido escribir la lista</string>
+    <string name="cannot_read">No se ha podido leer la lista</string>
+    <string name="confirm_clearAll">Estas seguro de que quieres eliminarlo todo?</string>
+</resources>
